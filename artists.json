@@ -1,0 +1,101 @@
+[{
+	"_id" : ObjectId("58ac71b2b3248e0f045c0518"),
+	"artist_fname" : "Kenneth",
+	"artist_lname" : "Noland",
+	"movements" : [
+		ObjectId("58ac7180b3248e0f045c0513")
+	],
+	"paintings" : [
+		ObjectId("58ac7931bf5c68adf8683be4")
+	]
+},{
+	"_id" : ObjectId("58ac71b2b3248e0f045c0519"),
+	"artist_fname" : "Ellsworth",
+	"artist_lname" : "Kelly",
+	"movements" : [
+		ObjectId("58ac7180b3248e0f045c0513")
+	],
+	"paintings" : [
+		ObjectId("58ac7931bf5c68adf8683be5")
+	]
+},{
+	"_id" : ObjectId("58ac71b2b3248e0f045c051a"),
+	"artist_fname" : "Pablo",
+	"artist_lname" : "Picasso",
+	"movements" : [
+		ObjectId("58ac7180b3248e0f045c0514")
+	],
+	"paintings" : [
+		ObjectId("58ac7931bf5c68adf8683be6")
+	]
+},{
+	"_id" : ObjectId("58ac71b2b3248e0f045c051b"),
+	"artist_fname" : "Fernand",
+	"artist_lname" : "Léger",
+	"movements" : [
+		ObjectId("58ac7180b3248e0f045c0514")
+	],
+	"paintings" : [
+		ObjectId("58ac7931bf5c68adf8683be7")
+	]
+},{
+	"_id" : ObjectId("58ac71b2b3248e0f045c051c"),
+	"artist_fname" : "Andy",
+	"artist_lname" : "Warhol",
+	"movements" : [
+		ObjectId("58ac7180b3248e0f045c0515")
+	],
+	"paintings" : [
+		ObjectId("58ac7931bf5c68adf8683be8")
+	]
+},{
+	"_id" : ObjectId("58ac71b2b3248e0f045c051d"),
+	"artist_fname" : "Marcel",
+	"artist_lname" : "Duchamp",
+	"movements" : [
+		ObjectId("58ac7180b3248e0f045c0515")
+	],
+	"paintings" : [
+		ObjectId("58ac7931bf5c68adf8683be9")
+	]
+},{
+	"_id" : ObjectId("58ac71b2b3248e0f045c051e"),
+	"artist_fname" : "Mark",
+	"artist_lname" : "Rothko",
+	"movements" : [
+		ObjectId("58ac7180b3248e0f045c0516")
+	],
+	"paintings" : [
+		ObjectId("58ac7931bf5c68adf8683bea")
+	]
+},{
+	"_id" : ObjectId("58ac71b2b3248e0f045c051f"),
+	"artist_fname" : "Jackson",
+	"artist_lname" : "Pollock",
+	"movements" : [
+		ObjectId("58ac7180b3248e0f045c0516")
+	],
+	"paintings" : [
+		ObjectId("58ac7931bf5c68adf8683beb")
+	]
+},{
+	"_id" : ObjectId("58ac71b2b3248e0f045c0520"),
+	"artist_fname" : "René",
+	"artist_lname" : "Magritte",
+	"movements" : [
+		ObjectId("58ac7180b3248e0f045c0517")
+	],
+	"paintings" : [
+		ObjectId("58ac7931bf5c68adf8683bec")
+	]
+},{
+	"_id" : ObjectId("58ac71b2b3248e0f045c0521"),
+	"artist_fname" : "Man",
+	"artist_lname" : "Ray",
+	"movements" : [
+		ObjectId("58ac7180b3248e0f045c0517")
+	],
+	"paintings" : [
+		ObjectId("58ac7931bf5c68adf8683bed")
+	]
+}]

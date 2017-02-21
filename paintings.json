@@ -1,0 +1,81 @@
+[{
+	"_id" : ObjectId("58ac7931bf5c68adf8683be4"),
+	"title" : "First",
+	"image" : "first.jpg",
+	"year" : "1958",
+	"artists" : [
+		ObjectId("58ac71b2b3248e0f045c0518")
+	]
+},{
+	"_id" : ObjectId("58ac7931bf5c68adf8683be5"),
+	"title" : "Red Blue",
+	"image" : "blue.jpg",
+	"year" : "1964",
+	"artists" : [
+		ObjectId("58ac71b2b3248e0f045c0519")
+	]
+},{
+	"_id" : ObjectId("58ac7931bf5c68adf8683be6"),
+	"title" : "The Three Dancers",
+	"image" : "dancers.jpg",
+	"year" : "1925",
+	"artists" : [
+		ObjectId("58ac71b2b3248e0f045c051a")
+	]
+},{
+	"_id" : ObjectId("58ac7931bf5c68adf8683be7"),
+	"title" : "Contrasts of Forms",
+	"image" : "forms.jpg",
+	"year" : "1913",
+	"artists" : [
+		ObjectId("58ac71b2b3248e0f045c051b")
+	]
+},{
+	"_id" : ObjectId("58ac7931bf5c68adf8683be8"),
+	"title" : "Shot Light Blue Marilyn",
+	"image" : "marilyn.jpg",
+	"year" : "1964",
+	"artists" : [
+		ObjectId("58ac71b2b3248e0f045c051c")
+	]
+},{
+	"_id" : ObjectId("58ac7931bf5c68adf8683be9"),
+	"title" : "Fountian",
+	"image" : "fountian.jpg",
+	"year" : "1917",
+	"artists" : [
+		ObjectId("58ac71b2b3248e0f045c051d")
+	]
+},{
+	"_id" : ObjectId("58ac7931bf5c68adf8683bea"),
+	"title" : "No. 61",
+	"image" : "61.jpg",
+	"year" : "1953",
+	"artists" : [
+		ObjectId("58ac71b2b3248e0f045c051e")
+	]
+},{
+	"_id" : ObjectId("58ac7931bf5c68adf8683beb"),
+	"title" : "The Flame",
+	"image" : "flame.jpg",
+	"year" : "1937",
+	"artists" : [
+		ObjectId("58ac71b2b3248e0f045c051f")
+	]
+},{
+	"_id" : ObjectId("58ac7931bf5c68adf8683bec"),
+	"title" : "Natural Graces",
+	"image" : "graces.jpg",
+	"year" : "1963",
+	"artists" : [
+		ObjectId("58ac71b2b3248e0f045c0520")
+	]
+},{
+	"_id" : ObjectId("58ac7931bf5c68adf8683bed"),
+	"title" : "The Rope Dancer Accompanies Herself with Her Shadows",
+	"image" : "shadows.jpg",
+	"year" : "1916",
+	"artists" : [
+		ObjectId("58ac71b2b3248e0f045c0521")
+	]
+}]

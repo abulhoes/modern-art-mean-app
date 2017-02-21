@@ -1,0 +1,41 @@
+[{
+	"_id" : ObjectId("58ac7180b3248e0f045c0513"),
+	"movement" : "Pluralism",
+	"image" : "pluralism.jpg",
+	"artists" : [
+		ObjectId("58ac71b2b3248e0f045c0518"),
+		ObjectId("58ac71b2b3248e0f045c0519")
+	]
+},{
+	"_id" : ObjectId("58ac7180b3248e0f045c0514"),
+	"movement" : "Cubism",
+	"image" : "cubism.jpg",
+	"artists" : [
+		ObjectId("58ac71b2b3248e0f045c051a"),
+		ObjectId("58ac71b2b3248e0f045c051b")
+	]
+},{
+	"_id" : ObjectId("58ac7180b3248e0f045c0515"),
+	"movement" : "Pop Art",
+	"image" : "pop.jpg",
+	"artists" : [
+		ObjectId("58ac71b2b3248e0f045c051c"),
+		ObjectId("58ac71b2b3248e0f045c051d")
+	]
+},{
+	"_id" : ObjectId("58ac7180b3248e0f045c0516"),
+	"movement" : "Abstract Expressionism",
+	"image" : "abstract.jpg",
+	"artists" : [
+		ObjectId("58ac71b2b3248e0f045c051e"),
+		ObjectId("58ac71b2b3248e0f045c051f")
+	]
+},{
+	"_id" : ObjectId("58ac7180b3248e0f045c0517"),
+	"movement" : "Surrealism",
+	"image" : "surrealism.jpg",
+	"artists" : [
+		ObjectId("58ac71b2b3248e0f045c0520"),
+		ObjectId("58ac71b2b3248e0f045c0521")
+	]
+}]
