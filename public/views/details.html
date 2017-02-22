@@ -1,0 +1,9 @@
+<ul>
+	<li data-ng-repeat="artist in artists">
+    <p>{{ artist.artist_fname }}</p>
+    <p>{{ artist.artist_lname }}</p>
+    <p>{{ artist.paintings[0].title }}</p>
+    <p>{{ artist.paintings[0].year }}</p>
+    <p><img ng-src="images/{{ artist.paintings[0].image }}"></p>
+    </li>
+</ul>

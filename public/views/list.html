@@ -1,0 +1,7 @@
+<ul>
+	<li data-ng-repeat="movement in movements">
+    <p>{{movement.movement}}</p>
+    <p><img ng-src="images/{{ movement.image }}"></p>
+    <a href="#/details/{{movement._id}}">More Info</a>
+    </li>
+</ul>
