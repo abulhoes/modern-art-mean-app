@@ -108,8 +108,8 @@ figcaption {
     float:none;
     /* reset the text-align */
     text-align:left;
-    /* inline-block space fix */
-    margin-right:-4px;
+    /* inline-block space fix 
+    margin-right:-4px;*/
 }
 
 .navbar-default {
