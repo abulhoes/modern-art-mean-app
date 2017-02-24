@@ -1,10 +1,27 @@
+/*==================================Global Stuff==================================*/
+@font-face{
+  font-family: 'CircularStd';
+  src: url('../fonts/CircularStd-Book.woff2') format('woff2'),
+     url('../fonts/CircularStd-Book.woff') format('woff');
+}
+
 body {
-  padding: 50px;
-  font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
+  margin-top: 80px;
+  font: 12px "CircularStd", Helvetica, Arial, sans-serif;
+  background-color: #FAFAFA;
 }
 
 a {
   color: #00B7FF;
+}
+
+p {
+  margin:10px 0 10px 0;
+}
+
+.navbar-right
+{
+  margin-right: 0px;
 }
 
 /*.fade {
@@ -19,7 +36,7 @@ a {
 .fade.ng-enter.ng-enter-active {
   opacity: 1;
 }*/
-
+/*==================================ngAnimate==================================*/
 .slide {
     position: relative;
     -webkit-transition: all 0.3s ease-in-out;
@@ -39,37 +56,99 @@ a {
 	 transform: translateX(0px);
 }
 
-figure
-{
-	margin-bottom: 20px;
+.title {
+  color:#FF6A6A;
+  font-size: 14px;
+}
+/*==================================Captions==================================*/
+.figure {
+    margin-bottom: 20px;
     position: relative;
-    transform: translateX(20px);
     transition: all 0.3s ease-in-out;
     overflow: hidden;
     cursor: pointer; 
 }
 
-figcaption
-{
+figcaption {
 	position: absolute;
-	bottom: 10px;
-	left:-100px;
-	background-color: black;
+	bottom: -5px;
+	left:-100%;
 	color:white;
-	padding: 2px 8px;
-	font-size: 11px;
+	padding: 2px 32px;
+  margin-bottom: 10px;
+	font-size: 20px;
+  transform: translateX(65px);
 	-webkit-transition: all 0.3s ease-in-out;
     transition: all 0.3s ease-in-out;
 }
 
 
-figure img{
+.figure img {
 	display: block;
+  margin-bottom: 20px;
 }
 
-figure:hover figcaption 
-{
+.figure:hover figcaption {
 	left: 0%; 
 }
 
-   
+
+/*==================================BootstrapConfig==================================*/
+.panel {
+  padding:10px;
+  margin:20px;
+}
+ 
+/*blessed centering*/   
+.row-centered {
+    text-align:center;
+}
+.col-centered {
+    display:inline-block;
+    float:none;
+    /* reset the text-align */
+    text-align:left;
+    /* inline-block space fix */
+    margin-right:-4px;
+}
+
+.navbar-default {
+  background-color:#FF6A6A;
+  box-shadow: 0 1px 1px rgba(0,0,0,.05);
+}
+
+.navbar-brand {
+  height:60px;
+}
+
+#brand {
+  height:30px;
+  width:30px;
+}
+
+.but
+{
+  background-color: #FF6A6A;
+  border: none;
+  box-shadow: 0 1px 1px rgba(0,0,0,.05);
+
+}
+
+.icon
+{
+  color: white;
+}
+
+.mainTitle
+{
+  font-size: 16px;
+  color: white !important;
+  padding-top:5px;
+}
+/*==================================DetailsPage==================================*/
+
+#detailsHeading {
+  margin-bottom:50px;
+  margin-top: 20px;
+  color:#FF6A6A;
+}
