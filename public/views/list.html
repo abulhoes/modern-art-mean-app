@@ -1,9 +1,10 @@
-<ul>
-	<li data-ng-repeat="movement in movements" class="slide">
-    <p>{{movement.movement}}</p>
-    	<figure>
-    		<img ng-src="images/{{ movement.image }}">
-    		<figcaption><a href="#/details/{{movement._id}}" class="figcaption">More Info</a></figcaption> 
-    	</figure>
-    </li>
-</ul>
+<div class="row row-centered">
+	<section class="slide col-sm-12 col-md-4 col-lg-3 panel panel-default col-centered" 
+		data-ng-repeat="movement in movements">
+	    	<div class="panel-body figure">
+	    		<p class="text-center title">{{movement.movement}}</p>
+	    		<img class="img-responsive center-block" ng-src="images/{{ movement.image }}">
+	    		<figcaption><a href="#/details/{{movement._id}}"><span>More Info</span></a></figcaption> 
+	    	</div>   
+	</section>
+</div>
