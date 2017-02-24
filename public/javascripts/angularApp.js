@@ -30,6 +30,7 @@ modernApp.controller('movementCtrl', ['$scope','$http', function($scope, $http){
 modernApp.controller('artistCtrl', ['$scope', '$http', '$stateParams', function($scope, $http, $stateParams){
 	$http.get('/movements/'+$stateParams.id).then(function(artists){
 		//console.log(artists.data.artists);
+		$scope.move = artists.data;
 		$scope.artists = artists.data.artists;
 	});
 }]);
