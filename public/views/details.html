@@ -1,22 +1,27 @@
-<a href="#/list">
-<button type="button" class="btn btn-default but" aria-label="Left Align">
-  		<span class="glyphicon glyphicon-chevron-left icon" aria-hidden="true"></span>
-</button>
-</a>
-
-<section class="row row-centered">	
-		<h2 id="detailsHeading">Artists Included in the {{ move.movement }} Period</h2>
-		  <div class="slide col-sm-12 col-md-5 col-centered" data-ng-repeat="artist in artists">
-		    <div class="thumbnail">
-		      <img ng-src="images/{{ artist.paintings[0].image }}" alt="Image of Painting">
-		      <div class="caption">
-		        <h4>{{ artist.artist_fname }} {{ artist.artist_lname }}</h4>
-		        <p>Title:<em> {{ artist.paintings[0].title }}</em></p>
-		        <p>Date Created: {{ artist.paintings[0].year }}</p>
-		      </div>
-		    </div>
-		  </div>
-</section>
+<a class="btn btn-default but" href="#/list" role="button" aria-label="Left Align"><span class="glyphicon glyphicon-chevron-left icon" aria-hidden="true"></span></a>
+<h1 class="hidden">Hover Over the Movement flash cards!</h1>
+	<section class="row row-centered flip" >
+		<h2 class="hidden">Movement/Painting Flash Cards</h2>
+		<p class="h1" id="detailsHeading">Artists Included in the {{ move.movement }} Period</p>
+		<flashcard class="flipper slide col-sm-12 col-md-5 col-centered" data-ng-repeat="artist in artists" ontouchstart="this.classList.toggle('hover');">
+			<div id="frontC" class="front thumbnail">
+				<div class="caption">
+					<p class="h4">Who is this Artist?</p>
+				        <p>Remember the title?</p>
+				        <p>Can you guess the year this was made?</p>
+			     </div>
+				<img ng-src="images/{{ artist.paintings[0].image }}" alt="Image of Painting">
+			</div>
+			<div class="back thumbnail">
+				<div class="caption">
+					<p class="h4">{{ artist.artist_fname }} {{ artist.artist_lname }}</p>
+				        <p>Title:<em> {{ artist.paintings[0].title }}</em></p>
+				        <p>Date Created: {{ artist.paintings[0].year }}</p>
+			     </div>
+			     <img ng-src="images/{{ artist.paintings[0].image }}" alt="Image of Painting">
+			</div>
+		</flashcard>
+	</section>
 
 
 

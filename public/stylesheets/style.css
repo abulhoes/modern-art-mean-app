@@ -11,8 +11,14 @@ body {
   background-color: #FAFAFA;
 }
 
-a {
-  color: #00B7FF;
+a, a:focus {
+  color:#FF6A6A; 
+  text-decoration: none;
+}
+
+a:hover {
+  color:#6ba2f9;
+  text-decoration: none;
 }
 
 p {
@@ -24,19 +30,8 @@ p {
   margin-right: 0px;
 }
 
-/*.fade {
-  transition: 1s linear all;
-  -webkit-transition: 1s linear all;
-}
-
-.fade.ng-enter {
-  opacity: 0;
-}
-
-.fade.ng-enter.ng-enter-active {
-  opacity: 1;
-}*/
 /*==================================ngAnimate==================================*/
+
 .slide {
     position: relative;
     -webkit-transition: all 0.3s ease-in-out;
@@ -152,3 +147,45 @@ figcaption {
   margin-top: 20px;
   color:#FF6A6A;
 }
+
+/*==================================FLIP==================================*/
+
+/* entire container, keeps perspective */
+.flip {
+  perspective: 1000px;
+}
+  /* flip the pane when hovered */
+.flipper:hover{
+  transform: rotateY(180deg);
+}
+
+.flipper {
+  transition: 0.6s;
+  transform-style: preserve-3d;
+}
+
+.front, .back {
+  backface-visibility: hidden;
+  top: 0;
+  right: 0;
+}
+
+.front {
+  z-index: 3;
+  /* for firefox 31 */
+  position: relative;
+  transform: rotateY(0deg);
+  margin-bottom: 20px;
+  margin-top: 20px;
+}
+
+.back {
+  z-index: 2;
+  position: absolute;
+  transform: rotateY(180deg);
+  box-shadow: 0 1px 1px rgba(0,0,0,.05);
+}
+
+
+
+

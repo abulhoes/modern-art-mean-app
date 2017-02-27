@@ -5,6 +5,10 @@
 	"artists" : [
 		ObjectId("58ac71b2b3248e0f045c0518"),
 		ObjectId("58ac71b2b3248e0f045c0519")
+	],
+	"paintings" : [
+		ObjectId("58ac7931bf5c68adf8683be4"),
+		ObjectId("58ac7931bf5c68adf8683be5")
 	]
 },{
 	"_id" : ObjectId("58ac7180b3248e0f045c0514"),
@@ -13,6 +17,10 @@
 	"artists" : [
 		ObjectId("58ac71b2b3248e0f045c051a"),
 		ObjectId("58ac71b2b3248e0f045c051b")
+	],
+	"paintings" : [
+		ObjectId("58ac7931bf5c68adf8683be6"),
+		ObjectId("58ac7931bf5c68adf8683be7")
 	]
 },{
 	"_id" : ObjectId("58ac7180b3248e0f045c0515"),
@@ -21,6 +29,10 @@
 	"artists" : [
 		ObjectId("58ac71b2b3248e0f045c051c"),
 		ObjectId("58ac71b2b3248e0f045c051d")
+	],
+	"paintings" : [
+		ObjectId("58ac7931bf5c68adf8683be8"),
+		ObjectId("58ac7931bf5c68adf8683be9")
 	]
 },{
 	"_id" : ObjectId("58ac7180b3248e0f045c0516"),
@@ -29,6 +41,10 @@
 	"artists" : [
 		ObjectId("58ac71b2b3248e0f045c051e"),
 		ObjectId("58ac71b2b3248e0f045c051f")
+	],
+	"paintings" : [
+		ObjectId("58ac7931bf5c68adf8683bea"),
+		ObjectId("58ac7931bf5c68adf8683beb")
 	]
 },{
 	"_id" : ObjectId("58ac7180b3248e0f045c0517"),
@@ -37,5 +53,9 @@
 	"artists" : [
 		ObjectId("58ac71b2b3248e0f045c0520"),
 		ObjectId("58ac71b2b3248e0f045c0521")
+	],
+	"paintings" : [
+		ObjectId("58ac7931bf5c68adf8683bec"),
+		ObjectId("58ac7931bf5c68adf8683bed")
 	]
 }]

@@ -5,95 +5,70 @@
 \margl1440\margr1440\vieww10800\viewh8400\viewkind0
 \pard\tx566\tx1133\tx1700\tx2267\tx2834\tx3401\tx3968\tx4535\tx5102\tx5669\tx6236\tx6803\pardirnatural\partightenfactor0
 
-\f0\fs24 \cf0 > db.paintings.find().pretty()\
+\f0\fs24 \cf0 > db.movements.find().pretty()\
 \{\
-	"_id" : ObjectId("58ac7931bf5c68adf8683be4"),\
-	"title" : "First",\
-	"image" : "first.jpg",\
-	"year" : "1958",\
+	"_id" : ObjectId("58ac7180b3248e0f045c0513"),\
+	"movement" : "Pluralism",\
+	"image" : "pluralism.jpg",\
 	"artists" : [\
-		ObjectId("58ac71b2b3248e0f045c0518")\
-	]\
-\}\
-\{\
-	"_id" : ObjectId("58ac7931bf5c68adf8683be5"),\
-	"title" : "Red Blue",\
-	"image" : "blue.jpg",\
-	"year" : "1964",\
-	"artists" : [\
+		ObjectId("58ac71b2b3248e0f045c0518"),\
 		ObjectId("58ac71b2b3248e0f045c0519")\
+	],\
+	"paintings" : [\
+		ObjectId("58ac7931bf5c68adf8683be4"),\
+		ObjectId("58ac7931bf5c68adf8683be5")\
 	]\
 \}\
 \{\
-	"_id" : ObjectId("58ac7931bf5c68adf8683be6"),\
-	"title" : "The Three Dancers",\
-	"image" : "dancers.jpg",\
-	"year" : "1925",\
+	"_id" : ObjectId("58ac7180b3248e0f045c0514"),\
+	"movement" : "Cubism",\
+	"image" : "cubism.jpg",\
 	"artists" : [\
-		ObjectId("58ac71b2b3248e0f045c051a")\
-	]\
-\}\
-\{\
-	"_id" : ObjectId("58ac7931bf5c68adf8683be7"),\
-	"title" : "Contrasts of Forms",\
-	"image" : "forms.jpg",\
-	"year" : "1913",\
-	"artists" : [\
+		ObjectId("58ac71b2b3248e0f045c051a"),\
 		ObjectId("58ac71b2b3248e0f045c051b")\
+	],\
+	"paintings" : [\
+		ObjectId("58ac7931bf5c68adf8683be6"),\
+		ObjectId("58ac7931bf5c68adf8683be7")\
 	]\
 \}\
 \{\
-	"_id" : ObjectId("58ac7931bf5c68adf8683be8"),\
-	"title" : "Shot Light Blue Marilyn",\
-	"image" : "marilyn.jpg",\
-	"year" : "1964",\
+	"_id" : ObjectId("58ac7180b3248e0f045c0515"),\
+	"movement" : "Pop Art",\
+	"image" : "pop.jpg",\
 	"artists" : [\
-		ObjectId("58ac71b2b3248e0f045c051c")\
-	]\
-\}\
-\{\
-	"_id" : ObjectId("58ac7931bf5c68adf8683be9"),\
-	"title" : "Fountian",\
-	"image" : "fountian.jpg",\
-	"year" : "1917",\
-	"artists" : [\
+		ObjectId("58ac71b2b3248e0f045c051c"),\
 		ObjectId("58ac71b2b3248e0f045c051d")\
+	],\
+	"paintings" : [\
+		ObjectId("58ac7931bf5c68adf8683be8"),\
+		ObjectId("58ac7931bf5c68adf8683be9")\
 	]\
 \}\
 \{\
-	"_id" : ObjectId("58ac7931bf5c68adf8683bea"),\
-	"title" : "No. 61",\
-	"image" : "61.jpg",\
-	"year" : "1953",\
+	"_id" : ObjectId("58ac7180b3248e0f045c0516"),\
+	"movement" : "Abstract Expressionism",\
+	"image" : "abstract.jpg",\
 	"artists" : [\
-		ObjectId("58ac71b2b3248e0f045c051e")\
-	]\
-\}\
-\{\
-	"_id" : ObjectId("58ac7931bf5c68adf8683beb"),\
-	"title" : "The Flame",\
-	"image" : "flame.jpg",\
-	"year" : "1937",\
-	"artists" : [\
+		ObjectId("58ac71b2b3248e0f045c051e"),\
 		ObjectId("58ac71b2b3248e0f045c051f")\
+	],\
+	"paintings" : [\
+		ObjectId("58ac7931bf5c68adf8683bea"),\
+		ObjectId("58ac7931bf5c68adf8683beb")\
 	]\
 \}\
 \{\
-	"_id" : ObjectId("58ac7931bf5c68adf8683bec"),\
-	"title" : "Natural Graces",\
-	"image" : "graces.jpg",\
-	"year" : "1963",\
+	"_id" : ObjectId("58ac7180b3248e0f045c0517"),\
+	"movement" : "Surrealism",\
+	"image" : "surrealism.jpg",\
 	"artists" : [\
-		ObjectId("58ac71b2b3248e0f045c0520")\
-	]\
-\}\
-\{\
-	"_id" : ObjectId("58ac7931bf5c68adf8683bed"),\
-	"title" : "The Rope Dancer Accompanies Herself with Her Shadows",\
-	"image" : "shadows.jpg",\
-	"year" : "1916",\
-	"artists" : [\
+		ObjectId("58ac71b2b3248e0f045c0520"),\
 		ObjectId("58ac71b2b3248e0f045c0521")\
+	],\
+	"paintings" : [\
+		ObjectId("58ac7931bf5c68adf8683bec"),\
+		ObjectId("58ac7931bf5c68adf8683bed")\
 	]\
 \}\
 > db.artists.find().pretty()\
@@ -207,50 +182,125 @@
 		ObjectId("58ac7931bf5c68adf8683bed")\
 	]\
 \}\
-> db.movements.find().pretty()\
+> db.paintings.find().pretty()\
 \{\
-	"_id" : ObjectId("58ac7180b3248e0f045c0513"),\
-	"movement" : "Pluralism",\
-	"image" : "pluralism.jpg",\
+	"_id" : ObjectId("58ac7931bf5c68adf8683be4"),\
+	"title" : "First",\
+	"image" : "first.jpg",\
+	"year" : "1958",\
 	"artists" : [\
-		ObjectId("58ac71b2b3248e0f045c0518"),\
+		ObjectId("58ac71b2b3248e0f045c0518")\
+	],\
+	"movements" : [\
+		ObjectId("58ac7180b3248e0f045c0513")\
+	]\
+\}\
+\{\
+	"_id" : ObjectId("58ac7931bf5c68adf8683be5"),\
+	"title" : "Red Blue",\
+	"image" : "blue.jpg",\
+	"year" : "1964",\
+	"artists" : [\
 		ObjectId("58ac71b2b3248e0f045c0519")\
+	],\
+	"movements" : [\
+		ObjectId("58ac7180b3248e0f045c0513")\
 	]\
 \}\
 \{\
-	"_id" : ObjectId("58ac7180b3248e0f045c0514"),\
-	"movement" : "Cubism",\
-	"image" : "cubism.jpg",\
+	"_id" : ObjectId("58ac7931bf5c68adf8683be6"),\
+	"title" : "The Three Dancers",\
+	"image" : "dancers.jpg",\
+	"year" : "1925",\
 	"artists" : [\
-		ObjectId("58ac71b2b3248e0f045c051a"),\
+		ObjectId("58ac71b2b3248e0f045c051a")\
+	],\
+	"movements" : [\
+		ObjectId("58ac7180b3248e0f045c0514")\
+	]\
+\}\
+\{\
+	"_id" : ObjectId("58ac7931bf5c68adf8683be7"),\
+	"title" : "Contrasts of Forms",\
+	"image" : "forms.jpg",\
+	"year" : "1913",\
+	"artists" : [\
 		ObjectId("58ac71b2b3248e0f045c051b")\
+	],\
+	"movements" : [\
+		ObjectId("58ac7180b3248e0f045c0514")\
 	]\
 \}\
 \{\
-	"_id" : ObjectId("58ac7180b3248e0f045c0515"),\
-	"movement" : "Pop Art",\
-	"image" : "pop.jpg",\
+	"_id" : ObjectId("58ac7931bf5c68adf8683be8"),\
+	"title" : "Shot Light Blue Marilyn",\
+	"image" : "marilyn.jpg",\
+	"year" : "1964",\
 	"artists" : [\
-		ObjectId("58ac71b2b3248e0f045c051c"),\
+		ObjectId("58ac71b2b3248e0f045c051c")\
+	],\
+	"movements" : [\
+		ObjectId("58ac7180b3248e0f045c0515")\
+	]\
+\}\
+\{\
+	"_id" : ObjectId("58ac7931bf5c68adf8683be9"),\
+	"title" : "Fountian",\
+	"image" : "fountian.jpg",\
+	"year" : "1917",\
+	"artists" : [\
 		ObjectId("58ac71b2b3248e0f045c051d")\
+	],\
+	"movements" : [\
+		ObjectId("58ac7180b3248e0f045c0515")\
 	]\
 \}\
 \{\
-	"_id" : ObjectId("58ac7180b3248e0f045c0516"),\
-	"movement" : "Abstract Expressionism",\
-	"image" : "abstract.jpg",\
+	"_id" : ObjectId("58ac7931bf5c68adf8683bea"),\
+	"title" : "No. 61",\
+	"image" : "61.jpg",\
+	"year" : "1953",\
 	"artists" : [\
-		ObjectId("58ac71b2b3248e0f045c051e"),\
+		ObjectId("58ac71b2b3248e0f045c051e")\
+	],\
+	"movements" : [\
+		ObjectId("58ac7180b3248e0f045c0516")\
+	]\
+\}\
+\{\
+	"_id" : ObjectId("58ac7931bf5c68adf8683beb"),\
+	"title" : "The Flame",\
+	"image" : "flame.jpg",\
+	"year" : "1937",\
+	"artists" : [\
 		ObjectId("58ac71b2b3248e0f045c051f")\
+	],\
+	"movements" : [\
+		ObjectId("58ac7180b3248e0f045c0516")\
 	]\
 \}\
 \{\
-	"_id" : ObjectId("58ac7180b3248e0f045c0517"),\
-	"movement" : "Surrealism",\
-	"image" : "surrealism.jpg",\
+	"_id" : ObjectId("58ac7931bf5c68adf8683bec"),\
+	"title" : "Natural Graces",\
+	"image" : "graces.jpg",\
+	"year" : "1963",\
 	"artists" : [\
-		ObjectId("58ac71b2b3248e0f045c0520"),\
+		ObjectId("58ac71b2b3248e0f045c0520")\
+	],\
+	"movements" : [\
+		ObjectId("58ac7180b3248e0f045c0517")\
+	]\
+\}\
+\{\
+	"_id" : ObjectId("58ac7931bf5c68adf8683bed"),\
+	"title" : "The Rope Dancer Accompanies Herself with Her Shadows",\
+	"image" : "shadows.jpg",\
+	"year" : "1916",\
+	"artists" : [\
 		ObjectId("58ac71b2b3248e0f045c0521")\
+	],\
+	"movements" : [\
+		ObjectId("58ac7180b3248e0f045c0517")\
 	]\
 \}\
 >}

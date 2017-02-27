@@ -5,6 +5,9 @@
 	"year" : "1958",
 	"artists" : [
 		ObjectId("58ac71b2b3248e0f045c0518")
+	],
+	"movements" : [
+		ObjectId("58ac7180b3248e0f045c0513")
 	]
 },{
 	"_id" : ObjectId("58ac7931bf5c68adf8683be5"),
@@ -13,6 +16,9 @@
 	"year" : "1964",
 	"artists" : [
 		ObjectId("58ac71b2b3248e0f045c0519")
+	],
+	"movements" : [
+		ObjectId("58ac7180b3248e0f045c0513")
 	]
 },{
 	"_id" : ObjectId("58ac7931bf5c68adf8683be6"),
@@ -21,6 +27,9 @@
 	"year" : "1925",
 	"artists" : [
 		ObjectId("58ac71b2b3248e0f045c051a")
+	],
+	"movements" : [
+		ObjectId("58ac7180b3248e0f045c0514")
 	]
 },{
 	"_id" : ObjectId("58ac7931bf5c68adf8683be7"),
@@ -29,6 +38,9 @@
 	"year" : "1913",
 	"artists" : [
 		ObjectId("58ac71b2b3248e0f045c051b")
+	],
+	"movements" : [
+		ObjectId("58ac7180b3248e0f045c0514")
 	]
 },{
 	"_id" : ObjectId("58ac7931bf5c68adf8683be8"),
@@ -37,6 +49,9 @@
 	"year" : "1964",
 	"artists" : [
 		ObjectId("58ac71b2b3248e0f045c051c")
+	],
+	"movements" : [
+		ObjectId("58ac7180b3248e0f045c0515")
 	]
 },{
 	"_id" : ObjectId("58ac7931bf5c68adf8683be9"),
@@ -45,6 +60,9 @@
 	"year" : "1917",
 	"artists" : [
 		ObjectId("58ac71b2b3248e0f045c051d")
+	],
+	"movements" : [
+		ObjectId("58ac7180b3248e0f045c0515")
 	]
 },{
 	"_id" : ObjectId("58ac7931bf5c68adf8683bea"),
@@ -53,6 +71,9 @@
 	"year" : "1953",
 	"artists" : [
 		ObjectId("58ac71b2b3248e0f045c051e")
+	],
+	"movements" : [
+		ObjectId("58ac7180b3248e0f045c0516")
 	]
 },{
 	"_id" : ObjectId("58ac7931bf5c68adf8683beb"),
@@ -61,6 +82,9 @@
 	"year" : "1937",
 	"artists" : [
 		ObjectId("58ac71b2b3248e0f045c051f")
+	],
+	"movements" : [
+		ObjectId("58ac7180b3248e0f045c0516")
 	]
 },{
 	"_id" : ObjectId("58ac7931bf5c68adf8683bec"),
@@ -69,6 +93,9 @@
 	"year" : "1963",
 	"artists" : [
 		ObjectId("58ac71b2b3248e0f045c0520")
+	],
+	"movements" : [
+		ObjectId("58ac7180b3248e0f045c0517")
 	]
 },{
 	"_id" : ObjectId("58ac7931bf5c68adf8683bed"),
@@ -77,5 +104,8 @@
 	"year" : "1916",
 	"artists" : [
 		ObjectId("58ac71b2b3248e0f045c0521")
+	],
+	"movements" : [
+		ObjectId("58ac7180b3248e0f045c0517")
 	]
 }]

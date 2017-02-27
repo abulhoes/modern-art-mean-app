@@ -1,10 +1,12 @@
 <div class="row row-centered">
+	<h1 class="hidden">Modern Art Movements</h1>
 	<section class="slide col-sm-12 col-md-4 col-lg-3 panel panel-default col-centered" 
 		data-ng-repeat="movement in movements">
 	    	<div class="panel-body figure">
+	    		<h2 class="hidden">Test Your Knowledge about the movements artists!</h2>
 	    		<p class="text-center title">{{movement.movement}}</p>
-	    		<img class="img-responsive center-block" ng-src="images/{{ movement.image }}">
-	    		<figcaption><a href="#/details/{{movement._id}}"><span>More Info</span></a></figcaption> 
+	    		<img class="img-responsive center-block" ng-src="images/{{ movement.image }}" alt="Modern Art Movement Icons">
+	    		<figcaption><a href="#/details/{{movement._id}}">More Info</a></figcaption> 
 	    	</div>   
 	</section>
 </div>
